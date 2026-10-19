@@ -24,6 +24,7 @@ Run BPM เป็นส่วนขยาย Chrome ที่ฟังเสี�
 - การฟังหยุดเมื่อคุณกด "หยุดฟัง" ปิดแท็บนั้น หรือเริ่มฟังแท็บอื่น
 
 ### ข้อมูลที่เก็บในเครื่อง
+
 | ข้อมูล | ที่เก็บ | อยู่นานแค่ไหน |
 |---|---|---|
 | cadence เป้าหมาย, ช่วงคลาดเคลื่อน (tolerance), ภาษาที่เลือก | `chrome.storage.local` | จนกว่าคุณจะถอนการติดตั้งส่วนขยาย |
@@ -63,6 +64,7 @@ Run BPM is a Chrome extension that listens to the tab you choose and tells you w
 - Listening stops when you press "Stop", close that tab, or start listening to another tab.
 
 ### Data stored on your device
+
 | Data | Where | How long |
 |---|---|---|
 | Target cadence, tolerance, chosen language | `chrome.storage.local` | Until you uninstall the extension |
